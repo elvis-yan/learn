@@ -1,0 +1,14 @@
+time curl http://localhost:7777/mandel2\?itertimes\=10000\&colorful\=true\&width\=1000\&height\=800\&zoom\=350 -o 2.png
+
+
+curl  -o 0.png  0.01s user 0.01s system 0% cpu 32.961 total
+curl  -o 1.png  0.01s user 0.01s system 0% cpu 16.503 total
+curl  -o 2.png  0.01s user 0.01s system 0% cpu 8.202 total
+curl  -o 0.png  0.01s user 0.01s system 0% cpu 32.787 total
+curl  -o 1.png  0.01s user 0.01s system 0% cpu 16.563 total
+curl  -o 2.png  0.01s user 0.01s system 0% cpu 8.233 total
+
+
+MD5 (0.png) = 3b7f2d866a1ac8f4c5697e688aa8a766
+MD5 (1.png) = 3b7f2d866a1ac8f4c5697e688aa8a766
+MD5 (2.png) = 3b7f2d866a1ac8f4c5697e688aa8a766
